@@ -5,11 +5,11 @@ import { ListaEmpleadosComponent } from './lista-empleados/lista-empleados.compo
 @Component({
   selector: 'app-root',
   standalone: true, //  Importante
-  imports: [ListaEmpleadosComponent], //  Importamos los componentes
+  imports: [RouterOutlet, ListaEmpleadosComponent], //  Importamos los componentes
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'gestion-empleados-fronted';
+  title = 'Sistema gestion de Empleados';
 }
 

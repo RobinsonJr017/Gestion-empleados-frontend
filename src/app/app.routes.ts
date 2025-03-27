@@ -2,5 +2,6 @@ import { Routes } from '@angular/router';
 import { ListaEmpleadosComponent } from './lista-empleados/lista-empleados.component';
 
 export const routes: Routes = [
-  { path: '', component: ListaEmpleadosComponent }, // Ruta principal
+  { path: 'empleados', component: ListaEmpleadosComponent }, // Ruta principal
+  { path: '', redirectTo: 'empleados', pathMatch:'full' }
 ];
