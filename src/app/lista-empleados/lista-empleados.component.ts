@@ -5,7 +5,7 @@ import { EmpleadoService } from '../empleado.service';
 
 @Component({
   selector: 'app-lista-empleados',
-  standalone: true, // 👈 Importante
+  standalone: true, 
   templateUrl: './lista-empleados.component.html',
   styleUrls: ['./lista-empleados.component.css'],
   imports: [NgFor]
